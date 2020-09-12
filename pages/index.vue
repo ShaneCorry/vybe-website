@@ -4,6 +4,7 @@
     <MissionSection />
     <LoansSection />
     <TokenSection />
+    <TeamSection />
   </div>
 </template>
 

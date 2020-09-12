@@ -10,7 +10,10 @@
       </div>
 
       <div class="bg-white rounded-md shadow-lg text-black flex-1 p-8">
-        <h4 class="text-xl text-black font-bold pb-4 border-b border-gray-400 mb-4">VYBE<span class="text-gray-700 font-medium ml-4">ERC-20</span></h4>
+        <h4 class="text-xl text-black font-bold pb-4 border-b border-gray-400 mb-4">
+          VYBE
+          <span class="text-gray-700 font-medium ml-4">ERC-20</span>
+        </h4>
 
         <div class="space-y-3 pb-4 border-b border-gray-400 mb-4">
           <div class="flex items-center space-x-8">
@@ -35,13 +38,25 @@
         </div>
 
         <div class="flex flex-col sm:flex-row items-center space-x-4">
-          <a class="flex text-lg font-semibold border-2 border-black text-black py-1 px-5 rounded-full hover:bg-black hover:text-white">
+          <a
+            class="flex text-lg font-semibold border-2 border-black text-black py-1 px-5 rounded-full hover:bg-black hover:text-white"
+            href="#"
+            target="_blank"
+          >
             <img src="~assets/icons/uniswap.svg" alt="Uniswap Logo" class="mr-1 h-6">
             Trade on Uniswap
           </a>
-          <a class="flex text-lg font-semibold border-2 border-black text-black py-1 px-5 rounded-full hover:bg-black hover:text-white">
+          <a
+            class="flex text-lg font-semibold border-2 border-black text-black py-1 px-5 rounded-full hover:bg-black hover:text-white"
+            href="#"
+            target="_blank"
+          >
             Trade on ForkDelta
           </a>
+        </div>
+
+        <div class="mt-4">
+          <a href="https://etherscan.io/address/0x3A1c1d1c06bE03cDDC4d3332F7C20e1B37c97CE9" target="_blank" class="text-indigo-600 font-bold">View the VYBE token contract on Github</a>
         </div>
 
       </div>
