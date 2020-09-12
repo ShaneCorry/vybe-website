@@ -1,6 +1,6 @@
 <template>
   <section class="bg-indigo-600 text-white py-16" id="token">
-    <div class="max-w-screen-xl mx-auto px-10 md:px-16 xl:px-0 flex flex-col space-y-12 xl:flex-row xl:justify-between xl:space-x-12 xl:space-y-0">
+    <div class="max-w-screen-xl mx-auto px-8 md:px-16 xl:px-0 flex flex-col space-y-12 xl:flex-row xl:justify-between xl:space-x-12 xl:space-y-0">
 
       <div class="">
         <h2 class="text-3xl font-bold mb-6">Token</h2>

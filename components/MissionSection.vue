@@ -1,6 +1,6 @@
 <template>
   <section class="bg-black text-white py-16" id="mission">
-    <div class="max-w-screen-xl mx-auto px-10 md:px-16  xl:px-0">
+    <div class="max-w-screen-xl mx-auto px-8 md:px-16  xl:px-0">
 
       <div class="pb-10">
         <h2 class="text-3xl font-bold mb-6">Mission</h2>
