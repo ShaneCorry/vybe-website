@@ -1,6 +1,6 @@
 <template>
   <section class="bg-black text-white py-16" id="team">
-    <div class="max-w-screen-xl mx-auto flex space-x-12">
+    <div class="max-w-screen-xl mx-auto px-10 md:px-16 flex flex-col space-y-12 xl:flex-row xl:space-x-12 xl:space-y-0">
 
       <div class="flex-none">
         <h2 class="text-3xl font-bold mb-6">Team</h2>
@@ -26,7 +26,7 @@
                 <img src="~assets/icons/linkedin.svg" alt="Twitter Logo" class="h-3 inline -mt-1">
               </a>
             </h4>
-            <p>Ty is an experienced software engineer with years of experience developing unique solutions for the cryptocurrency industry. Most recently he was CEO of Brainblocks, a non-custody payment processor for the cryptocurrency Nano.</p>
+            <p class="max-w-lg">Ty is an experienced software engineer with years of experience developing unique solutions for the cryptocurrency industry. Most recently he was CEO of Brainblocks, a non-custodial payment processor for the cryptocurrency Nano.</p>
           </div>
         </div>
 
@@ -37,7 +37,7 @@
             <h4 class="text-xl font-bold">
               Songbird
             </h4>
-            <p>Free as a bird</p>
+            <p class="max-w-lg">Free as a bird</p>
           </div>
         </div>
 

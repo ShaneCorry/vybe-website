@@ -5,6 +5,7 @@
     <LoansSection />
     <TokenSection />
     <TeamSection />
+    <Footer />
   </div>
 </template>
 

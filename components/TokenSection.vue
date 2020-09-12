@@ -1,6 +1,6 @@
 <template>
   <section class="bg-indigo-600 text-white py-16" id="token">
-    <div class="max-w-screen-xl mx-auto flex justify-between space-x-12">
+    <div class="max-w-screen-xl mx-auto px-10 md:px-16 flex flex-col space-y-12 xl:flex-row xl:justify-between xl:space-x-12 xl:space-y-0">
 
       <div class="">
         <h2 class="text-3xl font-bold mb-6">Token</h2>
@@ -37,7 +37,7 @@
           </div>
         </div>
 
-        <div class="flex flex-col sm:flex-row items-center space-x-4">
+        <div class="flex flex-col sm:flex-row space-y-2 sm:space-y-0 items-center sm:space-x-4">
           <a
             class="flex text-lg font-semibold border-2 border-black text-black py-1 px-5 rounded-full hover:bg-black hover:text-white"
             href="#"
