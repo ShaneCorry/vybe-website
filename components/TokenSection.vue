@@ -18,12 +18,14 @@
         <div class="space-y-3 pb-4 border-b border-gray-400 mb-4">
           <div class="flex items-center space-x-8">
             <div class="text-lg font-bold uppercase w-56 flex-0">Price</div>
-            <div class="font-medium text-gray-700 flex-1">$1.04</div>
+            <div v-if="price" class="font-medium text-gray-700 flex-1">${{ price }}</div>
+            <div v-else class="font-medium text-gray-700 flex-1">Loading..</div>
           </div>
 
           <div class="flex items-center space-x-8">
             <div class="text-lg font-bold uppercase w-56 flex-0">24HR Volume</div>
-            <div class="font-medium text-gray-700 flex-1">$302,704</div>
+            <div v-if="volume" class="font-medium text-gray-700 flex-1">${{ volume }}</div>
+            <div v-else class="font-medium text-gray-700 flex-1">Loading..</div>
           </div>
 
           <div class="flex items-center space-x-8">
@@ -66,7 +68,37 @@
 </template>
 
 <script>
-export default {
+import axios from "axios";
 
+export default {
+  data () {
+    return {
+      price: null,
+      volume: null
+    };
+  },
+
+  async created() {
+
+    const config = {
+      headers: {
+        Accept: "application/json"
+      }
+    };
+
+    try {
+
+      const res = await axios.get("https://api.coingecko.com/api/v3/coins/vybe?localization=false&tickers=false&community_data=false&developer_data=false&sparkline=false", config);
+
+      this.price = res.data.market_data.current_price.usd;
+      this.volume = res.data.market_data.total_volume.usd;
+
+    } catch (err) {
+
+      console.log(err);
+
+    }
+
+  }
 }
 </script>
