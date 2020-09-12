@@ -86,12 +86,16 @@ export default {
       }
     };
 
+    function formatNumber(x) {
+      return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+    }
+
     try {
 
       const res = await axios.get("https://api.coingecko.com/api/v3/coins/vybe?localization=false&tickers=false&community_data=false&developer_data=false&sparkline=false", config);
 
       this.price = res.data.market_data.current_price.usd;
-      this.volume = res.data.market_data.total_volume.usd;
+      this.volume = formatNumber(res.data.market_data.total_volume.usd);
 
     } catch (err) {
 
