@@ -1,6 +1,6 @@
 <template>
   <section class="bg-gray-100 text-gray-900 py-16" id="loans">
-    <div class="max-w-screen-xl mx-auto px-10 md:px-16">
+    <div class="max-w-screen-xl mx-auto px-10 md:px-16 xl:px-0">
 
       <div class="pb-10">
         <h2 class="text-3xl font-bold mb-6">Loans</h2>
