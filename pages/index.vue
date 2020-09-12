@@ -2,6 +2,7 @@
   <div class="">
     <HomeHero />
     <MissionSection />
+    <LoansSection />
   </div>
 </template>
 
