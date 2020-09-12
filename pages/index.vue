@@ -3,6 +3,7 @@
     <HomeHero />
     <MissionSection />
     <LoansSection />
+    <TokenSection />
   </div>
 </template>
 
