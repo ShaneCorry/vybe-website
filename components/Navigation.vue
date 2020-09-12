@@ -3,8 +3,8 @@
     <div class="flex items-center">
       <img src="~assets/img/logo.svg" class="h-8 mr-10" alt="Vybe Logo" />
       <nav class="flex space-x-10 text-lg font-bold leading-none">
-        <Nuxt-Link to="/" class="hover:text-indigo-700">Mission</Nuxt-Link>
-        <Nuxt-Link to="/" class="hover:text-indigo-700">Loans</Nuxt-Link>
+        <Nuxt-Link to="/#mission" class="hover:text-indigo-700">Mission</Nuxt-Link>
+        <Nuxt-Link to="/#loans" class="hover:text-indigo-700">Loans</Nuxt-Link>
         <Nuxt-Link to="/" class="hover:text-indigo-700">Token</Nuxt-Link>
         <Nuxt-Link to="/" class="hover:text-indigo-700">Team</Nuxt-Link>
       </nav>

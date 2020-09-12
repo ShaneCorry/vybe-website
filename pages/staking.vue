@@ -39,8 +39,8 @@
               <span class="text-gray-700 font-medium">staked</span>
             </div>
             <div class="">
-              <button type="button" class="text-lg font-semibold border-2 border-indigo-700 bg-indigo-700 text-white py-1 px-5 rounded-full mr-1">Deposit</button>
-              <button type="button" class="text-lg font-semibold border-2 border-black text-black py-1 px-5 rounded-full">
+              <button type="button" class="text-lg font-semibold border-2 border-indigo-700 bg-indigo-700 text-white py-1 px-5 rounded-full mr-1 hover:bg-indigo-800 hover:border-indigo-800">Deposit</button>
+              <button type="button" class="text-lg font-semibold border-2 border-black text-black py-1 px-5 rounded-full hover:bg-black hover:text-white">
                 Withdraw
               </button>
             </div>
@@ -56,7 +56,7 @@
             <p class="text-2xl text-black font-bold leading-tight">230.00</p>
             <span class="text-gray-700 font-medium">available</span>
             <div class="mt-4">
-              <button type="button" class="text-lg font-semibold border-2 border-indigo-700 bg-indigo-700 text-white py-1 px-5 rounded-full mr-1">Claim Rewards</button>
+              <button type="button" class="text-lg font-semibold border-2 border-indigo-700 bg-indigo-700 text-white py-1 px-5 rounded-full mr-1 hover:bg-indigo-800 hover:border-indigo-800">Claim Rewards</button>
             </div>
           </div>
         </div>

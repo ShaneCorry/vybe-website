@@ -1,5 +1,5 @@
 <template>
-  <section class="bg-black text-white py-16">
+  <section class="bg-black text-white py-16" id="mission">
     <div class="max-w-screen-xl mx-auto">
 
       <div class="pb-10">
@@ -13,7 +13,7 @@
           <img src="~assets/icons/loans-4.svg" class="mr-4" alt="">
           <div class="">
             <h4 class="text-xl font-bold leading-tight">Loans</h4>
-            <p class="">Blah Blah Blah</p>
+            <p class="">Instant. Simple. Uncollateralized</p>
           </div>
         </div>
 
@@ -21,7 +21,7 @@
           <img src="~assets/icons/staking-2.svg" class="mr-4" alt="">
           <div class="">
             <h4 class="text-xl font-bold leading-tight">Staking</h4>
-            <p class="">Blah Blah Blah</p>
+            <p class="">Earn returns on staked VYBE</p>
           </div>
         </div>
 
