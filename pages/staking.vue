@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-indigo-100 h-screen pt-16">
+  <div class="bg-indigo-100 h-screen lg:pt-16 md:pt-10">
 
     <header class="flex justify-center mb-12">
       <div class="">
