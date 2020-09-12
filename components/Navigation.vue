@@ -5,8 +5,8 @@
       <nav class="flex space-x-10 text-lg font-bold leading-none">
         <Nuxt-Link to="/#mission" class="hover:text-indigo-700">Mission</Nuxt-Link>
         <Nuxt-Link to="/#loans" class="hover:text-indigo-700">Loans</Nuxt-Link>
-        <Nuxt-Link to="/" class="hover:text-indigo-700">Token</Nuxt-Link>
-        <Nuxt-Link to="/" class="hover:text-indigo-700">Team</Nuxt-Link>
+        <Nuxt-Link to="/#token" class="hover:text-indigo-700">Token</Nuxt-Link>
+        <Nuxt-Link to="/#team" class="hover:text-indigo-700">Team</Nuxt-Link>
       </nav>
     </div>
     <div>
