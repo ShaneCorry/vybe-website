@@ -12,7 +12,7 @@
     </div>
     <div>
       <nav class="flex items-center space-x-10 text-lg font-bold leading-none">
-        <Nuxt-Link to="/" class="hover:text-indigo-700">Documentation</Nuxt-Link>
+        <Nuxt-Link to="/" class="hidden md:block hover:text-indigo-700">Documentation</Nuxt-Link>
         <Nuxt-Link to="/staking" class="flex hover:text-indigo-700">
           <span>Staking Portal</span>
           <img src="~assets/icons/arrow-nav.svg" alt="Arrow Right Icon" class="ml-2">
