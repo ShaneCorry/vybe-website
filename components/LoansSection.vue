@@ -8,7 +8,7 @@
         </br/>There is no risk to any participants. When they're paid back, 1% interest is earned. This interest is burnt, directly contributing its value back to the ecosystem.</p>
       </div>
 
-      <div class="bg-gray-200 rounded-lg shadow-sm py-8 px-10 max-w-xl flex items-center">
+      <div class="bg-gray-200 rounded-lg shadow-sm py-3 px-4 md:py-8 md:px-10 max-w-xl flex items-center">
         <img src="~assets/icons/etherscan-logo.svg" alt="Etherscan Logo" class="h-8 pr-6 mr-6 border-r border-black">
         <a
           href="https://etherscan.io/address/0x382EE41496E0Bb88F046F2C0D1Cf894F8D272BD5"

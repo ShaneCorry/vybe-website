@@ -1,5 +1,5 @@
 <template>
-  <section class="bg-indigo-600 text-white py-12 md:py-16 xl:py-20" id="token">
+  <section class="bg-indigo-600 text-white pt-12 md:py-16 xl:py-20" id="token">
     <div class="max-w-screen-xl mx-auto px-8 md:px-16 xl:px-0 flex flex-col space-y-12 xl:flex-row xl:justify-between xl:space-x-12 xl:space-y-0">
 
       <div class="">
@@ -9,7 +9,7 @@
         </br/>The staking rate will decrease over the next six months from the current 5% to the final staking rate of 2% of the VYBE supply.</p>
       </div>
 
-      <div class="bg-white rounded-md shadow-lg text-black flex-1 p-8">
+      <div class="bg-white md:rounded-md shadow-lg text-black flex-1 py-12 px-8 md:py-8 -mx-8 md:mx-0">
         <h4 class="text-xl text-black font-bold pb-4 border-b border-gray-400 mb-4">
           VYBE
           <span class="text-gray-700 font-medium ml-4">ERC-20</span>
