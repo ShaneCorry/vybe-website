@@ -98,7 +98,37 @@ export default {
 
       this.price = res.data.market_data.current_price.usd.toFixed(2);
       this.volume = formatNumber(res.data.market_data.total_volume.usd);
-      this.max_supply = formatNumber(res.data.market_data.total_supply.toFixed(0));
+
+      let today = Date.now();
+
+      if (today < 1601510400) {
+        // Current
+        var lockedSupply = 1400000;
+      } else if (today < 1604188800) {
+        // Oct 2020 - Nov 2020
+        // 200K unlocks
+        var lockedSupply = 1200000;
+      } else if (today < 1606780800) {
+        // Nov 2020 - Dec 2020
+        // 300K unlocks
+        var lockedSupply = 900000;
+      } else if (today < 1614556800) {
+        // Dec 2020 - Mar 2021
+        // 350K unlocks
+        var lockedSupply = 550000;
+      } else if (today < 1622505600) {
+        // Mar 2021 - Jun 2021
+        // 350K unlocks
+        var lockedSupply = 300000;
+      } else {
+        // After Jun 2021
+        // 300K unlocks
+        var lockedSupply = 0;
+      }
+
+      let currentSupply = res.data.market_data.total_supply.toFixed(0);
+      this.supply = formatNumber(currentSupply - lockedSupply);
+      // this.supply = today;
 
     } catch (err) {
 
