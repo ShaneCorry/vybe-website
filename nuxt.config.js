@@ -24,8 +24,8 @@ export default {
       { hid: 'social-property', property: 'og:type', content: 'website' },
       { hid: 'social-title', property: 'og:title', content: 'Vybe - Modern DeFi Platform with Loans & Staking' },
       { hid: 'social-description', property: 'og:description', content: 'Vybe is a new, modern take on decentralized finance. Our first product, Vybe Loans, is a cryptographically secure way to loan VYBE, where every loan is guaranteed to be paid back in full.' },
-      { hid: 'social-image', property: 'og:image', content: '/og-social-image.jpg' },
-      { hid: 'social-image', property: 'twitter:image', content: '/og-social-image.jpg' }
+      { hid: 'social-image', property: 'og:image', content: 'assets/img/og-social-image.jpg' },
+      { hid: 'social-image', property: 'twitter:image', content: '~assets/img/og-social-image.jpg' }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
