@@ -11,7 +11,7 @@
             <li class="hover:text-indigo-400"><Nuxt-Link to="/#loans" class="">{{ $t('nav-loans') }}</Nuxt-Link></li>
             <li class="hover:text-indigo-400"><Nuxt-Link to="/#token" class="">{{ $t('nav-token') }}</Nuxt-Link></li>
             <li class="hover:text-indigo-400"><Nuxt-Link to="/#team" class="">{{ $t('nav-team') }}</Nuxt-Link></li>
-            <li class="hover:text-indigo-400"><Nuxt-Link to="/staking" class="">{{ $t('nav-portal') }}</Nuxt-Link></li>
+            <li class="hover:text-indigo-400"><a href="https://dashboard.vybe.finance">{{ $t('nav-portal') }}</a></li>
           </ul>
         </div>
 

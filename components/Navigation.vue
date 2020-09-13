@@ -9,7 +9,7 @@
         <li><Nuxt-Link class="hover:text-indigo-700" @click.native="mobileMenu = false" to="/#loans">{{ $t('nav-loans') }}</Nuxt-Link></li>
         <li><Nuxt-Link class="hover:text-indigo-700" @click.native="mobileMenu = false" to="/#token">{{ $t('nav-token') }}</Nuxt-Link></li>
         <li><Nuxt-Link class="hover:text-indigo-700" @click.native="mobileMenu = false" to="/#team">{{ $t('nav-team') }}</Nuxt-Link></li>
-        <li><Nuxt-Link class="hover:text-indigo-700" @click.native="mobileMenu = false" to="/">{{ $t('nav-docs') }}</Nuxt-Link></li>
+        <!-- <li><Nuxt-Link class="hover:text-indigo-700" @click.native="mobileMenu = false" to="/">{{ $t('nav-docs') }}</Nuxt-Link></li> -->
       </ul>
       <div v-on:click="mobileMenu = false" class="absolute bottom-0 left-0 w-full border-t py-8 mt-8">
         <span class="px-8 text-gray-700">{{ $t('nav-close-menu') }}</span>
@@ -30,11 +30,11 @@
 
     <div>
       <nav class="flex items-center space-x-10 text-lg font-bold leading-none">
-        <Nuxt-Link to="/" class="hidden md:block hover:text-indigo-700">{{ $t('nav-docs') }}</Nuxt-Link>
-        <Nuxt-Link to="/staking" class="flex hover:text-indigo-700">
-          <span>{{ $t('nav-portal') }}</span>
-          <img src="~assets/icons/arrow-nav.svg" alt="Arrow Right Icon" class="ml-1 md:ml-2">
-        </Nuxt-Link>
+        <!-- <Nuxt-Link to="/" class="hidden md:block hover:text-indigo-700">{{ $t('nav-docs') }}</Nuxt-Link> -->
+        <a href="https://dashboard.vybe.finance" class="flex hover:text-indigo-700">
+            <span>{{ $t('nav-portal') }}</span>
+            <img src="~assets/icons/arrow-nav.svg" alt="Arrow Right Icon" class="ml-1 md:ml-2">
+        </a>
       </nav>
     </div>
 
