@@ -1,4 +1,4 @@
-# vybe
+# Vybe.finance Website
 
 ## Build Setup
 
@@ -15,6 +15,16 @@ $ npm run start
 
 # generate static project
 $ npm run generate
+```
+
+## Static Hosting
+
+```bash
+# build static project for production
+$ nuxt generate
+
+# serve the build folder
+$ dist
 ```
 
 For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
