@@ -9,7 +9,7 @@ export default ({ app }) => {
   // This way we can use it globally in our components through this.$i18n
   app.i18n = new VueI18n({
     // Set the initial locale
-    locale: navigator.language || navigator.userLanguage,
+    locale: navigator.language.split('-')[0] || 'en',
 
     // Set the fallback locale in case the current locale can't be found
     fallbackLocale: "en",
