@@ -6,8 +6,8 @@
         <h2 class="text-3xl font-bold mb-6">{{ $t('nav-team') }}</h2>
         <div class="">
           <p class="text-xl font-normal tracking-wide leading-relaxed max-w-2xl">
-            Something something about team experience, transparency, striving for greatness etc. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.<br/>
-          </br/>Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur.</p>
+            {{ $t('team-copy-one') }}<br/>
+          </br/>{{ $t('team-copy-two') }}</p>
         </div>
       </div>
 
