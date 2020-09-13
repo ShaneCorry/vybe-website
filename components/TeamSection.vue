@@ -1,5 +1,5 @@
 <template>
-  <section class="bg-black text-white py-16" id="team">
+  <section class="bg-black text-white py-20" id="team">
     <div class="max-w-screen-xl mx-auto px-8 md:px-16 xl:px-0 flex flex-col space-y-12 xl:flex-row xl:space-x-12 xl:space-y-0">
 
       <div class="flex-none">

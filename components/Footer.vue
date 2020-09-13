@@ -1,5 +1,5 @@
 <template>
-  <section class="bg-gray-800 text-white py-16" id="footer">
+  <section class="bg-gray-800 text-white py-12" id="footer">
     <div class="max-w-screen-xl mx-auto px-8 md:px-16 xl:px-0">
 
       <div class="flex items-start flex-col text-center items-center space-y-12 md:space-y-0 md:text-left md:items-start md:flex-row md:space-x-16 lg:space-x-32">

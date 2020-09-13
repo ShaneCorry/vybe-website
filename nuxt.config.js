@@ -15,11 +15,17 @@ export default {
   ** See https://nuxtjs.org/api/configuration-head
   */
   head: {
-    title: 'Vybe',
+    title: 'Vybe - Modern DeFi Platform',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: process.env.npm_package_description || '' }
+      { hid: 'description', name: 'description', content: process.env.npm_package_description || '' },
+      { hid: 'social-site-name', property: 'og:site_name', content: 'Vybe - Modern DeFi Platform' },
+      { hid: 'social-property', property: 'og:type', content: 'website' },
+      { hid: 'social-title', property: 'og:title', content: 'Modern DeFi Platform with Loans & Staking | Vybe' },
+      { hid: 'social-description', property: 'og:description', content: 'Vybe is a new, modern take on decentralized finance. Offering Loans, Staking and more.' },
+      { hid: 'social-image', property: 'og:image', content: '#' },
+      { hid: 'social-image', property: 'twitter:image', content: '#' }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },

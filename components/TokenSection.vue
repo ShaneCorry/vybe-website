@@ -1,5 +1,5 @@
 <template>
-  <section class="bg-indigo-600 text-white py-16" id="token">
+  <section class="bg-indigo-600 text-white py-20" id="token">
     <div class="max-w-screen-xl mx-auto px-8 md:px-16 xl:px-0 flex flex-col space-y-12 xl:flex-row xl:justify-between xl:space-x-12 xl:space-y-0">
 
       <div class="">
@@ -29,8 +29,9 @@
           </div>
 
           <div class="flex items-center space-x-8">
-            <div class="text-lg font-bold uppercase w-56 flex-0">Cirulating Supply</div>
-            <div class="font-medium text-gray-700 flex-1">2,000,000</div>
+            <div class="text-lg font-bold uppercase w-56 flex-0">Circulating Supply</div>
+            <div v-if="supply" class="font-medium text-gray-700 flex-1">{{ supply }}</div>
+            <div v-else class="font-medium text-gray-700 flex-1">Loading..</div>
           </div>
 
           <div class="flex items-center space-x-8">
@@ -74,7 +75,8 @@ export default {
   data () {
     return {
       price: null,
-      volume: null
+      volume: null,
+      supply: null
     };
   },
 
@@ -96,6 +98,21 @@ export default {
 
       this.price = res.data.market_data.current_price.usd;
       this.volume = formatNumber(res.data.market_data.total_volume.usd);
+
+    } catch (err) {
+
+      console.log(err);
+
+    }
+
+    try {
+
+      // const etherscan = await axios.get("https://api.etherscan.io/api?module=stats&action=tokensupply&contractaddress=0x57d90b64a1a57749b0f932f1a3395792e12e7055&apikey=HXZCSJ1N2J1CGCWD3PKYXSCI2FX2G9PWSW", config);
+      //
+      // // rawSupply = etherscan.data.result.match(/.{1,10}(\s|$)/g);
+      //
+      // // this.supply = parseInt(rawSupply);
+      // this.supply = etherscan;
 
     } catch (err) {
 
