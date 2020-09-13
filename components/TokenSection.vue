@@ -9,7 +9,7 @@
         </br/>{{ $t('token-copy-three') }}</p>
       </div>
 
-      <div class="bg-white md:rounded-md shadow-lg text-black flex-1 py-12 px-8 md:py-8 -mx-8 md:mx-0">
+      <div class="bg-white md:rounded-md max-w-2xl shadow-lg text-black flex-1 py-12 px-8 md:py-8 -mx-8 md:mx-0">
         <h4 class="text-xl text-black font-bold pb-4 border-b border-gray-400 mb-4">
           VYBE
           <span class="text-gray-700 font-medium ml-4">ERC-20</span>
