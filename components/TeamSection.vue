@@ -6,8 +6,8 @@
         <h2 class="text-3xl font-bold mb-6">{{ $t('nav-team') }}</h2>
         <div class="">
           <p class="text-xl font-normal tracking-wide leading-relaxed max-w-2xl">
-            We're on a mission to create a modern, easily upgradable DeFi platform and have a strong team made up of dedicated individuals with prior experience in the sector.<br/>
-          </br/>Our guiding principles are to be honest and transparent while innovating and working on secure, dependable products.</p>
+            {{ $t('team-copy-one') }}<br/>
+          </br/>{{ $t('team-copy-two') }}</p>
         </div>
       </div>
 
