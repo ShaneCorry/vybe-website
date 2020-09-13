@@ -4,7 +4,7 @@
 
       <div class="">
         <h2 class="text-3xl font-bold mb-6">{{ $t('nav-token') }}</h2>
-        <p class="text-xl font-normal tracking-wide leading-relaxed max-w-2xl"><br/>{{ $t('token-copy-one') }}
+        <p class="text-xl font-normal tracking-wide leading-relaxed max-w-2xl">{{ $t('token-copy-one') }}<br/>
         </br/>{{ $t('token-copy-two') }}<br/>
         </br/>{{ $t('token-copy-three') }}</p>
       </div>
@@ -99,21 +99,6 @@ export default {
       this.price = res.data.market_data.current_price.usd.toFixed(2);
       this.volume = formatNumber(res.data.market_data.total_volume.usd);
       this.max_supply = formatNumber(res.data.market_data.total_supply.toFixed(0));
-
-    } catch (err) {
-
-      console.log(err);
-
-    }
-
-    try {
-
-      // const etherscan = await axios.get("https://api.etherscan.io/api?module=stats&action=tokensupply&contractaddress=0x57d90b64a1a57749b0f932f1a3395792e12e7055&apikey=HXZCSJ1N2J1CGCWD3PKYXSCI2FX2G9PWSW", config);
-      //
-      // // rawSupply = etherscan.data.result.match(/.{1,10}(\s|$)/g);
-      //
-      // // this.supply = parseInt(rawSupply);
-      // this.supply = etherscan;
 
     } catch (err) {
 
