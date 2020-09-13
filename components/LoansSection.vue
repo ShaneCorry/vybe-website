@@ -3,9 +3,9 @@
     <div class="max-w-screen-xl mx-auto px-8 md:px-16 xl:px-0">
 
       <div class="pb-10">
-        <h2 class="text-3xl font-bold mb-6">Loans</h2>
-        <p class="text-xl font-normal tracking-wide leading-relaxed max-w-2xl">Our first Dapp - Vybe Loans is a cryptographically secure way to loan VYBE, where every loan is guaranteed to be paid back in full.<br/>
-        </br/>There is no risk to any participants. When they're paid back, 1% interest is earned. This interest is burnt, directly contributing its value back to the ecosystem.</p>
+        <h2 class="text-3xl font-bold mb-6">{{ $t('nav-loans') }}</h2>
+        <p class="text-xl font-normal tracking-wide leading-relaxed max-w-2xl">{{ $t('loans-copy-one') }}<br/>
+        </br/>{{ $t('loans-copy-two') }}</p>
       </div>
 
       <div class="bg-gray-200 rounded-lg shadow-sm py-8 px-10 max-w-xl flex items-center">
@@ -15,7 +15,7 @@
           target="_blank"
           class="text-lg text-black font-bold hover:text-indigo-700"
         >
-          View the Vybe Loans smart contract
+          {{ $t('loans-cta') }}
         </a>
       </div>
 

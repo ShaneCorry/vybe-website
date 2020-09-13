@@ -10,8 +10,8 @@
   },
   "dependencies": {
     "@nuxtjs/axios": "^5.12.2",
-    "numeral": "^2.0.6",
-    "nuxt": "^2.14.0"
+    "nuxt": "^2.14.0",
+    "vue-i18n": "^8.21.1"
   },
   "devDependencies": {
     "@nuxtjs/tailwindcss": "^2.1.0"
