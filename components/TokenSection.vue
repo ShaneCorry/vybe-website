@@ -103,19 +103,19 @@ export default {
 
       if (today < 1601510400000) {
         // Current
-        var lockedSupply = 1400000;
+        var lockedSupply = 1500000;
       } else if (today < 1604188800000) {
         // Oct 2020 - Nov 2020
         // 200K unlocks
-        var lockedSupply = 1200000;
+        var lockedSupply = 1300000;
       } else if (today < 1606780800000) {
         // Nov 2020 - Dec 2020
         // 300K unlocks
-        var lockedSupply = 900000;
+        var lockedSupply = 1000000;
       } else if (today < 1614556800000) {
         // Dec 2020 - Mar 2021
         // 350K unlocks
-        var lockedSupply = 550000;
+        var lockedSupply = 650000;
       } else if (today < 1622505600000) {
         // Mar 2021 - Jun 2021
         // 350K unlocks
