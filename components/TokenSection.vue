@@ -59,7 +59,7 @@
         </div>
 
         <div class="mt-4">
-          <a href="https://etherscan.io/address/0x3A1c1d1c06bE03cDDC4d3332F7C20e1B37c97CE9" target="_blank" class="text-indigo-600 font-bold">View the VYBE token contract on Github</a>
+          <a href="https://etherscan.io/address/0x3A1c1d1c06bE03cDDC4d3332F7C20e1B37c97CE9" target="_blank" class="text-center md:text-left text-indigo-600 font-bold">View the VYBE token contract on Github</a>
         </div>
 
       </div>
