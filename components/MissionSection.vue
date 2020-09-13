@@ -4,7 +4,11 @@
 
       <div class="pb-10">
         <h2 class="text-3xl font-bold mb-6">{{ $t('nav-mission') }}</h2>
-        <p class="text-xl font-normal tracking-wide leading-relaxed max-w-2xl">{{ $t('mission-copy') }}</p>
+        <p class="text-xl font-normal tracking-wide leading-relaxed max-w-2xl">
+          {{ $t('mission-copy-one') }}
+          <br/></br/>
+          {{ $t('mission-copy-two') }}
+        </p>
       </div>
 
       <div class="flex flex-col space-y-8 md:flex-row md:space-y-0 md:items-center md:space-x-16 border-t border-b border-gray-800 px-0 sm:px-2 py-8 md:p-10">
@@ -29,6 +33,7 @@
           <img src="" class="" alt="">
           <div class="">
             <h4 class="text-xl font-medium text-gray-500">{{ $t('mission-coming-soon') }}</h4>
+            <p class="text-gray-500">{{ $t('mission-coming-soon-copy') }}</p>
           </div>
         </div>
 
