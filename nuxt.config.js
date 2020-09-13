@@ -45,7 +45,6 @@ export default {
   ** https://nuxtjs.org/guide/plugins
   */
   plugins: [
-    "~/plugins/i18n.js"
   ],
   /*
   ** Auto import components
@@ -62,8 +61,24 @@ export default {
   ** Nuxt.js modules
   */
   modules: [
-    '@nuxtjs/axios'
+    '@nuxtjs/axios',
+    'nuxt-i18n'
   ],
+
+  i18n: {
+    locales: ['en'],
+    defaultLocale: 'en',
+    detectBrowserLanguage: {
+        fallbackLocale: 'en',
+        onlyOnRoot: true
+    },
+    vueI18n: {
+      fallbackLocale: 'en',
+      messages: {
+        en: require('./lang/en-US.json'),
+      }
+    }
+  },
 
   axios: {
 
