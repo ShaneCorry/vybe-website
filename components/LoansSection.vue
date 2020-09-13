@@ -1,5 +1,5 @@
 <template>
-  <section class="bg-gray-100 text-gray-900 py-20" id="loans">
+  <section class="bg-gray-100 text-gray-900 py-12 md:py-16 xl:py-20" id="loans">
     <div class="max-w-screen-xl mx-auto px-8 md:px-16 xl:px-0">
 
       <div class="pb-10">
