@@ -66,7 +66,7 @@ export default {
   ],
 
   i18n: {
-    locales: ['en'],
+    locales: ['ar', 'en'],
     defaultLocale: 'en',
     detectBrowserLanguage: {
         fallbackLocale: 'en',
@@ -75,7 +75,8 @@ export default {
     vueI18n: {
       fallbackLocale: 'en',
       messages: {
-        en: require('./lang/en-US.json'),
+        ar: require('./lang/ar.json'),
+        en: require('./lang/en.json')
       }
     }
   },
