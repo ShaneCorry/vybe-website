@@ -31,18 +31,18 @@
           <div class="flex items-center space-x-8">
             <div class="text-lg font-bold uppercase w-56 flex-0">{{ $t('token-supply') }}</div>
             <div v-if="supply" class="font-medium text-gray-700 flex-1">{{ supply }}</div>
-            <div v-else class="font-medium text-gray-700 flex-1">Loading..</div>
+            <div v-else class="font-medium text-gray-700 flex-1">{{ $t('token-loading') }}</div>
           </div>
 
           <div class="flex items-center space-x-8">
             <div class="text-lg font-bold uppercase w-56 flex-0">{{ $t('token-total-supply') }}</div>
             <div v-if="supply" class="font-medium text-gray-700 flex-1">{{ total_supply }}</div>
-            <div v-else class="font-medium text-gray-700 flex-1">Loading..</div>
+            <div v-else class="font-medium text-gray-700 flex-1">{{ $t('token-loading') }}</div>
           </div>
 
           <div class="flex items-center space-x-8">
-            <div class="text-lg font-bold uppercase w-56 flex-0">Presale?</div>
-            <div class="font-medium text-gray-700 flex-1">No</div>
+            <div class="text-lg font-bold uppercase w-56 flex-0">{{ $t('token-presale') }}</div>
+            <div class="font-medium text-gray-700 flex-1">{{ $t('token-presale-answer') }}</div>
           </div>
         </div>
 
