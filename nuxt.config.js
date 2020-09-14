@@ -66,7 +66,7 @@ export default {
   ],
 
   i18n: {
-    locales: ['ar', 'de', 'dut', 'en', 'es', 'fa', 'fr', 'he', 'hu', 'ro'],
+    locales: ['ar', 'de', 'dut', 'en', 'es', 'fa', 'fr', 'he', 'hu', 'pl', 'ro'],
     defaultLocale: 'en',
     detectBrowserLanguage: {
         fallbackLocale: 'en',
@@ -86,6 +86,7 @@ export default {
         fr: require('./lang/fr.json'),
         he: require('./lang/he.json'),
         hu: require('./lang/hu.json'),
+        pl: require('./lang/pl.json'),
         ro: require('./lang/ro.json')
       }
     }
