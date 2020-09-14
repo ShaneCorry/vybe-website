@@ -70,7 +70,9 @@ export default {
     defaultLocale: 'en',
     detectBrowserLanguage: {
         fallbackLocale: 'en',
-        onlyOnRoot: true
+        onlyOnRoot: true,
+        alwaysRedirect: true,
+        useCookie: false
     },
     vueI18n: {
       fallbackLocale: 'en',
