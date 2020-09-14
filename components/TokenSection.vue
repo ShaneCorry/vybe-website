@@ -49,7 +49,7 @@
         <div class="flex flex-col sm:flex-row space-y-2 sm:space-y-0 items-center sm:space-x-4">
           <a
             class="flex text-lg font-semibold border-2 border-black text-black py-1 px-5 rounded-full hover:bg-black hover:text-white"
-            href="#"
+            href="https://app.uniswap.org/#/swap?outputCurrency=0x3a1c1d1c06be03cddc4d3332f7c20e1b37c97ce9"
             target="_blank"
           >
             <img src="~assets/icons/uniswap.svg" alt="Uniswap Logo" class="mr-1 h-6">
@@ -57,7 +57,7 @@
           </a>
           <a
             class="flex text-lg font-semibold border-2 border-black text-black py-1 px-5 rounded-full hover:bg-black hover:text-white"
-            href="#"
+            href="https://forkdelta.app/#!/trade/0x3a1c1d1c06be03cddc4d3332f7c20e1b37c97ce9-ETH"
             target="_blank"
           >
             {{ $t('token-forkdelta') }}
