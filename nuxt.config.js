@@ -66,7 +66,7 @@ export default {
   ],
 
   i18n: {
-    locales: ['ar', 'de', 'dut', 'en', 'es', 'fa', 'fr', 'he', 'hu', 'pl', 'ro'],
+    locales: ['ar', 'da', 'de', 'dut', 'el', 'en', 'es', 'fa', 'fr', 'he', 'hu', 'id', 'ko', 'pl', 'ro', 'zh'],
     defaultLocale: 'en',
     detectBrowserLanguage: {
         fallbackLocale: 'en',
@@ -78,16 +78,21 @@ export default {
       fallbackLocale: 'en',
       messages: {
         ar: require('./lang/ar.json'),
+        da: require('./lang/da.json'),
         de: require('./lang/de.json'),
         dut: require('./lang/dut.json'),
+        el: require('./lang/el.json'),
         en: require('./lang/en.json'),
         es: require('./lang/es.json'),
         fa: require('./lang/fa.json'),
         fr: require('./lang/fr.json'),
         he: require('./lang/he.json'),
         hu: require('./lang/hu.json'),
+        id: require('./lang/id.json'),
+        ko: require('./lang/ko.json'),
         pl: require('./lang/pl.json'),
-        ro: require('./lang/ro.json')
+        ro: require('./lang/ro.json'),
+        zh: require('./lang/zh.json'),
       }
     }
   },
