@@ -20,8 +20,8 @@
           <ul class="space-y-2 text-lg text-white">
             <li class="hover:text-indigo-400"><a href="https://github.com/vybetoken" target="_blank" class="">{{ $t('footer-github') }}</a></li>
             <li class="hover:text-indigo-400"><a href="https://etherscan.io/address/0x3A1c1d1c06bE03cDDC4d3332F7C20e1B37c97CE9" target="_blank" class="">{{ $t('footer-token-contract') }}</a></li>
-            <li class="hover:text-indigo-400"><a href="https://etherscan.io/address/0x1Bcc32Ac1C994CE7e9526FbaF95f37AbC0B2EC39" target="_blank" class="">{{ $t('footer-loan-contract') }}</a></li>
-            <li class="hover:text-indigo-400"><a href="https://etherscan.io/address/0x382EE41496E0Bb88F046F2C0D1Cf894F8D272BD5" target="_blank" class="">{{ $t('footer-staking-contract') }}</a></li>
+            <li class="hover:text-indigo-400"><a href="https://etherscan.io/address/0x382EE41496E0Bb88F046F2C0D1Cf894F8D272BD5" target="_blank" class="">{{ $t('footer-loan-contract') }}</a></li>
+            <li class="hover:text-indigo-400"><a href="https://etherscan.io/address/0x1Bcc32Ac1C994CE7e9526FbaF95f37AbC0B2EC39" target="_blank" class="">{{ $t('footer-staking-contract') }}</a></li>
           </ul>
         </div>
 
