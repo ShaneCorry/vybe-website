@@ -9,6 +9,9 @@
         <li><Nuxt-Link class="hover:text-indigo-700" @click.native="mobileMenu = false" to="/#loans">{{ $t('nav-loans') }}</Nuxt-Link></li>
         <li><Nuxt-Link class="hover:text-indigo-700" @click.native="mobileMenu = false" to="/#token">{{ $t('nav-token') }}</Nuxt-Link></li>
         <li><Nuxt-Link class="hover:text-indigo-700" @click.native="mobileMenu = false" to="/#team">{{ $t('nav-team') }}</Nuxt-Link></li>
+        <li><a href="https://learn.vybe.finance" class="flex hover:text-indigo-700">
+            <span>{{ $t('nav-docs') }}</span>
+        </a></li>
         <!-- <li><Nuxt-Link class="hover:text-indigo-700" @click.native="mobileMenu = false" to="/">{{ $t('nav-docs') }}</Nuxt-Link></li> -->
       </ul>
       <div v-on:click="mobileMenu = false" class="absolute bottom-0 left-0 w-full border-t py-8 mt-8">
@@ -25,6 +28,9 @@
         <Nuxt-Link to="/#loans" class="hover:text-indigo-700">{{ $t('nav-loans') }}</Nuxt-Link>
         <Nuxt-Link to="/#token" class="hover:text-indigo-700">{{ $t('nav-token') }}</Nuxt-Link>
         <Nuxt-Link to="/#team" class="hover:text-indigo-700">{{ $t('nav-team') }}</Nuxt-Link>
+        <a href="https://learn.vybe.finance" class="flex hover:text-indigo-700">
+            <span>{{ $t('nav-docs') }}</span>
+        </a>
       </nav>
     </div>
 
