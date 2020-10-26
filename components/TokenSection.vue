@@ -36,13 +36,14 @@
 
           <div class="flex items-center space-x-8">
             <div class="text-lg font-bold uppercase w-56 flex-0">{{ $t('token-total-supply') }}</div>
-            <div v-if="supply" class="font-medium text-gray-700 flex-1">{{ total_supply }}</div>
+            <div v-if="total_supply" class="font-medium text-gray-700 flex-1">{{ total_supply }}</div>
             <div v-else class="font-medium text-gray-700 flex-1">{{ $t('token-loading') }}</div>
           </div>
 
           <div class="flex items-center space-x-8">
-            <div class="text-lg font-bold uppercase w-56 flex-0">{{ $t('token-presale') }}</div>
-            <div class="font-medium text-gray-700 flex-1">{{ $t('token-presale-answer') }}</div>
+            <div class="text-lg font-bold uppercase w-56 flex-0">{{ $t('token-mcap') }}</div>
+            <div v-if="market_cap" class="font-medium text-gray-700 flex-1">${{ market_cap }}</div>
+            <div v-else class="font-medium text-gray-700 flex-1">{{ $t('token-loading') }}</div>
           </div>
         </div>
 
@@ -83,7 +84,8 @@ export default {
       price: null,
       volume: null,
       supply: null,
-      total_supply: null
+      total_supply: null,
+      market_cap: null
     };
   },
 
@@ -107,6 +109,7 @@ export default {
       this.volume = formatNumber(res.data.volume);
       this.total_supply = formatNumber(res.data.total_supply);
       this.supply = formatNumber(res.data.circulating_supply);
+      this.market_cap = formatNumber(res.data.circulating_supply * res.data.price);
 
     } catch (err) {
 

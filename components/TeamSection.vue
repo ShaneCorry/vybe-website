@@ -31,7 +31,7 @@
         </div>
 
         <!-- Songbird -->
-        <div class="flex items-start space-x-8">
+        <!-- <div class="flex items-start space-x-8">
           <img src="~assets/img/old-vybe.png" alt="Image of Song bird" class="h-20 border-2 border-white rounded-full">
           <div class="">
             <h4 class="text-xl font-bold">
@@ -39,7 +39,7 @@
             </h4>
             <p class="max-w-lg">{{ $t('team-songbird') }}</p>
           </div>
-        </div>
+        </div> -->
 
       </div>
 
