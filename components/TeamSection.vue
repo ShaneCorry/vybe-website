@@ -30,16 +30,16 @@
           </div>
         </div>
 
-        <!-- Songbird -->
-        <!-- <div class="flex items-start space-x-8">
-          <img src="~assets/img/old-vybe.png" alt="Image of Song bird" class="h-20 border-2 border-white rounded-full">
+        <!-- Bitski -->
+        <div class="flex items-start space-x-8">
+          <img src="~assets/img/bitski.jpg" alt="Image of Bitski" class="h-20 border-2 border-white rounded-full">
           <div class="">
             <h4 class="text-xl font-bold">
-              Songbird
+              Bitski
             </h4>
-            <p class="max-w-lg">{{ $t('team-songbird') }}</p>
+            <p class="max-w-lg">{{ $t('team-bitski') }}</p>
           </div>
-        </div> -->
+        </div>
 
       </div>
 
