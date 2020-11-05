@@ -42,9 +42,10 @@
     "footer-explore": "Explore",
     "footer-transparency": "Transparency",
     "footer-github": "GitHub",
-    "footer-token-contract": "VYBE Token contract",
-    "footer-loan-contract": "Vybe Loans contract",
-    "footer-staking-contract": "Vybe Staking contract",
+    "footer-token-governance": "Governance contract",
+    "footer-token-contract": "Token contract",
+    "footer-loan-contract": "Loans contract",
+    "footer-staking-contract": "Staking contract",
     "footer-social-media": "Social Media",
     "footer-twitter": "Twitter",
     "footer-telegram": "Telegram"
