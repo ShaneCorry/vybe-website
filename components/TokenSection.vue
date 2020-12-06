@@ -105,11 +105,11 @@ export default {
 
       const res = await axios.get("https://api.vybe.finance/api/data", config);
 
-      this.price = res.data.price;
+      this.price = res.data.usd;
       this.volume = formatNumber(res.data.volume.toFixed(0));
       this.total_supply = formatNumber(res.data.total_supply.toFixed(0));
       this.supply = formatNumber(res.data.circulating_supply.toFixed(0));
-      this.market_cap = formatNumber((res.data.circulating_supply * res.data.price).toFixed(2));
+      this.market_cap = formatNumber((res.data.circulating_supply * res.data.usd).toFixed(2));
 
     } catch (err) {
 
