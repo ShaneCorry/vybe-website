@@ -1,14 +1,15 @@
 <template>
-  <section class="bg-indigo-600 text-white pt-12 md:py-16 xl:py-20" id="token">
-    <div class="max-w-screen-xl mx-auto px-8 md:px-16 xl:px-0 flex flex-col space-y-12 xl:flex-row xl:justify-between xl:space-x-12 xl:space-y-0">
+<section class="bg-indigo-600 text-white pt-12 md:py-16 xl:py-20" id="token">
+  <div class="max-w-screen-xl mx-auto px-8 md:px-16 xl:px-0 flex flex-col space-y-12 xl:flex-row xl:justify-between xl:space-x-12 xl:space-y-0">
 
-      <div class="">
-        <h2 class="text-3xl font-bold mb-6">{{ $t('nav-token') }}</h2>
-        <p class="text-xl font-normal tracking-wide leading-relaxed max-w-2xl">{{ $t('token-copy-one') }}<br/>
-        </br/>{{ $t('token-copy-two') }}<br/>
-        </br/>{{ $t('token-copy-three') }}</p>
-      </div>
+    <div class="">
+      <h2 class="text-3xl font-bold mb-6">{{ $t('nav-token') }}</h2>
+      <p class="text-xl font-normal tracking-wide leading-relaxed max-w-2xl">{{ $t('token-copy-one') }}<br />
+        </br />{{ $t('token-copy-two') }}<br />
+        </br />{{ $t('token-copy-three') }}</p>
+    </div>
 
+    <div class="flex-none">
       <div class="bg-white md:rounded-md max-w-2xl shadow-lg text-black flex-1 py-12 px-8 md:py-8 -mx-8 md:mx-0">
         <h4 class="text-xl text-black font-bold pb-4 border-b border-gray-400 mb-4">
           VYBE
@@ -48,19 +49,11 @@
         </div>
 
         <div class="flex flex-col sm:flex-row space-y-2 sm:space-y-0 items-center sm:space-x-4">
-          <a
-            class="flex text-lg font-semibold border-2 border-black text-black py-1 px-5 rounded-full hover:bg-black hover:text-white"
-            href="https://app.uniswap.org/#/swap?outputCurrency=0x3a1c1d1c06be03cddc4d3332f7c20e1b37c97ce9"
-            target="_blank"
-          >
+          <a class="flex text-lg font-semibold border-2 border-black text-black py-1 px-5 rounded-full hover:bg-black hover:text-white" href="https://app.uniswap.org/#/swap?outputCurrency=0x3a1c1d1c06be03cddc4d3332f7c20e1b37c97ce9" target="_blank">
             <img src="~assets/icons/uniswap.svg" alt="Uniswap Logo" class="mr-1 h-6">
             {{ $t('token-uniswap') }}
           </a>
-          <a
-            class="flex text-lg font-semibold border-2 border-black text-black py-1 px-5 rounded-full hover:bg-black hover:text-white"
-            href="https://forkdelta.app/#!/trade/0x3a1c1d1c06be03cddc4d3332f7c20e1b37c97ce9-ETH"
-            target="_blank"
-          >
+          <a class="flex text-lg font-semibold border-2 border-black text-black py-1 px-5 rounded-full hover:bg-black hover:text-white" href="https://forkdelta.app/#!/trade/0x3a1c1d1c06be03cddc4d3332f7c20e1b37c97ce9-ETH" target="_blank">
             {{ $t('token-forkdelta') }}
           </a>
         </div>
@@ -70,16 +63,17 @@
         </div>
 
       </div>
-
     </div>
-  </section>
+
+  </div>
+</section>
 </template>
 
 <script>
 import axios from "axios";
 
 export default {
-  data () {
+  data() {
     return {
       price: null,
       volume: null,
