@@ -14,7 +14,7 @@
             <li><a href="https://learn.vybe.finance" class="flex hover:text-indigo-700">
                 <span>{{ $t('nav-docs') }}</span>
             </a></li>
-            <li class="hover:text-indigo-400"><a href="https://dashboard.vybe.finance">{{ $t('nav-portal') }}</a></li>
+            <li class="hover:text-indigo-400"><a href="https://portal.vybe.finance">{{ $t('nav-portal') }}</a></li>
           </ul>
         </div>
 
