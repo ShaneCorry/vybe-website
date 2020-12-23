@@ -41,17 +41,6 @@
           </div>
         </div>
 
-        <!-- Bitski -->
-        <div class="flex items-start space-x-8">
-          <img src="~assets/img/bitski.jpg" alt="Image of Bitski" class="h-20 border-2 border-white rounded-full">
-          <div class="">
-            <h4 class="text-xl font-bold">
-              Bitski
-            </h4>
-            <p class="max-w-lg">{{ $t('team-bitski') }}</p>
-          </div>
-        </div>
-
       </div>
 
     </div>

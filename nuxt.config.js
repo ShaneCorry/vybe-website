@@ -66,7 +66,8 @@ export default {
   ],
 
   i18n: {
-    locales: ['ar', 'da', 'de', 'dut', 'el', 'en', 'es', 'fa', 'fr', 'he', 'hu', 'id', 'ko', 'pl', 'ro', 'zh'],
+    // locales: ['ar', 'da', 'de', 'dut', 'el', 'en', 'es', 'fa', 'fr', 'he', 'hu', 'id', 'ko', 'pl', 'ro', 'zh'],
+    locales: ['en'],
     defaultLocale: 'en',
     detectBrowserLanguage: {
         fallbackLocale: 'en',
@@ -77,22 +78,22 @@ export default {
     vueI18n: {
       fallbackLocale: 'en',
       messages: {
-        ar: require('./lang/ar.json'),
-        da: require('./lang/da.json'),
-        de: require('./lang/de.json'),
-        dut: require('./lang/dut.json'),
-        el: require('./lang/el.json'),
-        en: require('./lang/en.json'),
-        es: require('./lang/es.json'),
-        fa: require('./lang/fa.json'),
-        fr: require('./lang/fr.json'),
-        he: require('./lang/he.json'),
-        hu: require('./lang/hu.json'),
-        id: require('./lang/id.json'),
-        ko: require('./lang/ko.json'),
-        pl: require('./lang/pl.json'),
-        ro: require('./lang/ro.json'),
-        zh: require('./lang/zh.json'),
+        // ar: require('./lang/ar.json'),
+        // da: require('./lang/da.json'),
+        // de: require('./lang/de.json'),
+        // dut: require('./lang/dut.json'),
+        // el: require('./lang/el.json'),
+        en: require('./lang/en.json')
+        // es: require('./lang/es.json'),
+        // fa: require('./lang/fa.json'),
+        // fr: require('./lang/fr.json'),
+        // he: require('./lang/he.json'),
+        // hu: require('./lang/hu.json'),
+        // id: require('./lang/id.json'),
+        // ko: require('./lang/ko.json'),
+        // pl: require('./lang/pl.json'),
+        // ro: require('./lang/ro.json'),
+        // zh: require('./lang/zh.json'),
       }
     }
   },
